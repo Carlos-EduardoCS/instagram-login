@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #1E3050;
+    text-decoration: none;
+    display: block;
+    margin: 30px auto;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+strong{
+    font-weight: normal;
+    color: rgba(0, 89, 255, 0.932);
+}
+
+strong:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container{
+    text-align: center;
+}
+
+
+.logo{
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    filter: opacity(90%);
+}
+
+.login-box{
+    display: block;
+    margin: 0 auto;
+}
+
+.email, .pass{
+    display: block;
+    padding: 10px;
+    width: 270px;
+    border: 1px solid rgba(75, 75, 75, 0.092);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.092);
+    margin: 5px auto;
+}
+
+.enviar{
+    display: block;
+    padding: 10px;
+    width: 270px;
+    height: 35px;
+    line-height: 1.5px;
+    border: 1px solid rgba(75, 75, 75, 0.092);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.092);
+    margin: -20px auto 20px auto;
+    color: #FFF;
+    background-color: rgba(0, 89, 255, 0.733);
+}
+
+.lines{ 
+    line-height: 1px;
+    display: flex;
+}
+
+.lines-box{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 50px auto 50px auto;
+}
+
+.line1{
+    height: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.344);
+    width: 100px;
+}
+
+.link2{
+    color: #152239;
+    margin-top: -20px;
+}
+
+.new-count{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgs-in-app-class{
+    width: 120px;
+}
+
+.imgs-in-app-class2{
+    height: 35px;
+    width: 110px;
+}
+
+.app{
+    margin-top: 70px;
+}
+
+.footer{
+    margin-top: 45px;
+}
+
+.carlos{
+    margin: 0px;
+}
