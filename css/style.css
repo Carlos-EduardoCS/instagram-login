@@ -42,6 +42,7 @@ strong:hover{
 }
 
 .login-box{
+    height: 75vh;
     display: block;
     margin: 0 auto;
 }
@@ -119,4 +120,8 @@ strong:hover{
 
 .carlos{
     margin: 0px;
+}
+
+.mockup{
+    display: none;
 }

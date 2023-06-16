@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    .login-box{
+        height: 60vh;
+        display: block;
+        margin: -20px auto;
+        padding: 10px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .mockup{
+        display: block;
+        margin-top: 17vh;
+        width: 700px;
+    }
+    
+}
